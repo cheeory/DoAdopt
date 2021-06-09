@@ -7,7 +7,7 @@ Highcharts.chart('container4', {
         borderRadius: 20
     },
     title: {
-        text: '자연사 24.8%　　 　안락사 21.8%',
+        text: '안락사 21.8%　　 　자연사 24.8%',
         align: 'right',
         verticalAlign: 'middle',
         style : {fontFamily:'GmarketSansLight', fontSize: 12, color:'#C4C4C4'},
