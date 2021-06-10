@@ -21,6 +21,11 @@ Highcharts.chart('container5', {
     credits: {enabled: false},
     legend:{ enabled:false },
     tooltip: {
+        style : {fontFamily:'Noto Sans KR', fontSize: 14, lineHeight: 20},
+        borderColor: '#F7C9BC',
+        shadow: false,
+        padding: 20,
+        backgroundColor: 'white',
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
     },
     accessibility: {
